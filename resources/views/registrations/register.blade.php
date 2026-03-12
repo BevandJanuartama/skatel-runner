@@ -146,7 +146,7 @@
                 </div>
                 <div class="px-8 py-4">
                     <div class="bg-slate-50 p-4 rounded-3xl border-2 border-dashed border-slate-200">
-                        <img src="{{ asset('storage/qris.jpeg') }}" alt="QRIS Payment" class="w-full h-auto rounded-xl">
+                        <img src="{{ asset('images/qris.jpeg') }}" alt="QRIS Payment" class="w-full h-auto rounded-xl">
                     </div>
                 </div>
                 <div class="px-8 pb-10 pt-4 flex flex-col gap-3">

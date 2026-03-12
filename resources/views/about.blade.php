@@ -44,7 +44,7 @@
             </div>
             <div class="relative">
                 <div class="absolute -top-4 -left-4 w-full h-full bg-gold/10 rounded-[3rem]"></div>
-                <img src="{{ asset('storage/logo.jpeg') }}" alt="Logo RunFest" class="relative z-10 w-full rounded-[3rem] shadow-2xl  hover:grayscale-0 transition-all duration-700">
+                <img src="{{ asset('images/logo.jpeg') }}" alt="Logo RunFest" class="relative z-10 w-full rounded-[3rem] shadow-2xl  hover:grayscale-0 transition-all duration-700">
             </div>
         </div>
     </section>
@@ -54,7 +54,7 @@
             <h2 class="text-center text-3xl font-black text-navy mb-12 uppercase tracking-tight">Kata dari Ketua Alumni</h2>
             <div class="bg-[#F7F7F7] rounded-[3rem] overflow-hidden flex flex-col md:flex-row shadow-xl">
                 <div class="md:w-1/3">
-                    <img src="{{ asset('storage/ketua.jpeg') }}" alt="Ketua IKASTELBA" class="h-full w-full object-cover">
+                    <img src="{{ asset('images/ketua.jpeg') }}" alt="Ketua IKASTELBA" class="h-full w-full object-cover">
                 </div>
                 <div class="md:w-2/3 p-8 md:p-16 text-sm text-slate-600 leading-relaxed italic">
                     <p class="mb-4">Assalamu'alaikum warahmatullahi wabarakatuh, <br> Salam hangat untuk seluruh alumni SMK Telkom Banjarbaru di mana pun berada.</p>
@@ -74,32 +74,32 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             
             <div class="overflow-hidden rounded-3xl h-64 md:col-span-2 group">
-                <img src="{{ asset('storage/dok3.jpg') }}" alt="Momen 1" 
+                <img src="{{ asset('images/dok3.jpg') }}" alt="Momen 1" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('storage/dok2.jpg') }}" alt="Momen 2" 
+                <img src="{{ asset('images/dok2.jpg') }}" alt="Momen 2" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('storage/dok1.jpg') }}" alt="Momen 3" 
+                <img src="{{ asset('images/dok1.jpg') }}" alt="Momen 3" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('storage/dok4.jpg') }}" alt="Momen 4" 
+                <img src="{{ asset('images/dok4.jpg') }}" alt="Momen 4" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('storage/dok5.jpg') }}" alt="Momen 5" 
+                <img src="{{ asset('images/dok5.jpg') }}" alt="Momen 5" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 md:col-span-2 group">
-                <img src="{{ asset('storage/dok6.jpg') }}" alt="Momen 6" 
+                <img src="{{ asset('images/dok6.jpg') }}" alt="Momen 6" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 

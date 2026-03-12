@@ -66,7 +66,7 @@
                 <div class="relative z-10 bg-white rounded-[1rem] shadow-[0_50px_100px_-20px_rgba(0,0.1,0.1,0.3)] border border-slate-100">
                     
                     <div class="relative h-80 overflow-hidden rounded-t-[1.3rem] bg-slate-200">
-                        <img src="{{ asset('storage/jersey.jpeg') }}" 
+                        <img src="{{ asset('images/jersey.jpeg') }}" 
                             alt="Racepack Preview" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-1000">
                         
