@@ -74,32 +74,32 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             
             <div class="overflow-hidden rounded-3xl h-64 md:col-span-2 group">
-                <img src="{{ asset('images/dok3.jpg') }}" alt="Momen 1" 
+                <img src="{{ asset('images/dok3.JPG') }}" alt="Momen 1" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('images/dok2.jpg') }}" alt="Momen 2" 
+                <img src="{{ asset('images/dok2.JPG') }}" alt="Momen 2" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('images/dok1.jpg') }}" alt="Momen 3" 
+                <img src="{{ asset('images/dok1.JPG') }}" alt="Momen 3" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('images/dok4.jpg') }}" alt="Momen 4" 
+                <img src="{{ asset('images/dok4.JPG') }}" alt="Momen 4" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 group">
-                <img src="{{ asset('images/dok5.jpg') }}" alt="Momen 5" 
+                <img src="{{ asset('images/dok5.JPG') }}" alt="Momen 5" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
             <div class="overflow-hidden rounded-3xl h-64 md:col-span-2 group">
-                <img src="{{ asset('images/dok6.jpg') }}" alt="Momen 6" 
+                <img src="{{ asset('images/dok6.JPG') }}" alt="Momen 6" 
                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
             </div>
 
