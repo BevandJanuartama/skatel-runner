@@ -19,10 +19,9 @@ return new class extends Migration
                 $table->enum('jk', ['L', 'P']);
                 $table->date('ttl');
                 $table->string('bib_name', 12);
-                $table->string('emergency');
-                $table->string('gol_darah');
-                $table->string('komunitas')->nullable();
-                $table->text('alamat');
+                $table->integer('angkatan')->unsigned();
+                $table->string('pekerjaan')->nullable();
+                $table->text('lokasi_kerja');
                 $table->string('jersey')->nullable();
                 $table->string('status')->default('pending');
                 $table->timestamps();

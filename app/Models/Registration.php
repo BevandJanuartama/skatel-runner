@@ -25,10 +25,9 @@ class Registration extends Model
         'jk',
         'ttl',
         'bib_name',
-        'emergency',
-        'gol_darah',
-        'komunitas',
-        'alamat',
+        'angkatan',
+        'pekerjaan',
+        'lokasi_kerja',
         'jersey',
         'status',
     ];
