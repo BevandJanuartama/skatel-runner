@@ -9,7 +9,7 @@
     <style>
         .hero-bg {
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                        url("{{ asset('storage/landing-bg.webp') }}");
+                        url("{{ asset('images/landing-bg.webp') }}");
             background-size: cover;
             background-position: center;
         }
@@ -83,7 +83,7 @@
                         x-transition:leave-start="opacity-100 scale-100"
                         x-transition:leave-end="opacity-0 scale-95"
                         class="absolute inset-0 flex items-center justify-center p-4">
-                        <img src="{{ asset('storage/jerseyy.webp') }}" 
+                        <img src="{{ asset('images/jerseyy.webp') }}" 
                             alt="Jersey" 
                             class="w-full h-full object-contain">
                     </div>
@@ -96,7 +96,7 @@
                         x-transition:leave-start="opacity-100 scale-100"
                         x-transition:leave-end="opacity-0 scale-95"
                         class="absolute inset-0 flex items-center justify-center p-4">
-                        <img src="{{ asset('storage/medal.webp') }}" 
+                        <img src="{{ asset('images/medal.webp') }}" 
                             alt="Medal" 
                             class="w-full h-full object-contain">
                     </div>
@@ -110,7 +110,7 @@
             
             <div class="flex flex-col w-full md:w-auto items-center md:items-start">
                 <div class="relative flex flex-col items-center md:items-start">
-                    <img src="{{ asset('storage/logoo.webp') }}" 
+                    <img src="{{ asset('images/logoo.png') }}" 
                         alt="Logo IKASTELBA" 
                         class="h-24 md:h-32 mb-4 object-contain">
                     
