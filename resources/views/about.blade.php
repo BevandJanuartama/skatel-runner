@@ -107,7 +107,7 @@
                 <div class="absolute w-[260px] h-[260px] md:w-[400px] md:h-[400px] border-[12px] md:border-[24px] border-[#D32F2F] rounded-full opacity-100 z-0 md:translate-x-10"></div>
                 
                 <div class="relative z-10">
-                    <img src="{{ asset('images/ketua-removebg-preview.png') }}" 
+                    <img src="{{ asset('images/ketua-removebg-preview.webp') }}" 
                         alt="Abdul Hamid" 
                         class="w-full max-w-[280px] md:max-w-[450px] object-contain drop-shadow-2xl">
                     
