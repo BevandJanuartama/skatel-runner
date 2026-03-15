@@ -41,6 +41,7 @@ class RegistrationController extends Controller
             'telepon'      => 'required|numeric',
             'jk'           => 'required|in:L,P',
             'ttl'          => 'required|date',
+            'tempat_lahir' => 'required|string|max:255',
             'bib_name'     => 'required|string|max:12',
             'angkatan'     => 'required|integer|min:1',
             'pekerjaan'    => 'nullable|string|max:255',

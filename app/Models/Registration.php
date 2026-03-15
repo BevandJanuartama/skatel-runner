@@ -24,6 +24,7 @@ class Registration extends Model
         'telepon',
         'jk',
         'ttl',
+        'tempat_lahir',
         'bib_name',
         'angkatan',
         'pekerjaan',

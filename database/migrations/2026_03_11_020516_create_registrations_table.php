@@ -18,6 +18,7 @@ return new class extends Migration
                 $table->string('telepon');
                 $table->enum('jk', ['L', 'P']);
                 $table->date('ttl');
+                $table->string('tempat_lahir');
                 $table->string('bib_name', 12);
                 $table->integer('angkatan')->unsigned();
                 $table->string('pekerjaan')->nullable();

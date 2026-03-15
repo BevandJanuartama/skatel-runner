@@ -3,7 +3,7 @@
 use App\Http\Controllers\RegistrationController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', function () { return view('welcome'); });
+Route::get('/home', function () { return view('welcome'); })->name('home');
 Route::get('/about', function () { return view('about'); });
 
 Route::controller(RegistrationController::class)->group(function () {
