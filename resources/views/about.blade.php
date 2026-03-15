@@ -8,7 +8,7 @@
     <style>
         .header-bg {
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                        url("{{ asset('storage/landing-bg.webp') }}");
+                        url("{{ asset('images/landing-bg.webp') }}");
             background-size: cover;
             background-position: center;
         }
@@ -36,12 +36,12 @@
 
     <section class="relative py-16 md:py-32 px-6 md:px-24 overflow-hidden min-h-screen flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="{{ asset('storage/landing-bg.webp') }}" alt="Background" class="w-full h-full object-cover">
+            <img src="{{ asset('images/landing-bg.webp') }}" alt="Background" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-white/90 md:bg-white/80"></div> 
         </div>
 
         <div class="hidden md:block absolute inset-0 z-10 h-[80%] mt-28">
-            <img src="{{ asset('storage/traps.webp') }}" 
+            <img src="{{ asset('images/traps.webp') }}" 
                 alt="Dekorasi Traps" 
                 class="w-full h-full object-cover object-center opacity-100">
         </div>
@@ -51,7 +51,7 @@
                 
                 <div class="w-full md:w-[55%]">
                     <div class="relative">
-                        <img src="{{ asset('storage/landing-bg.webp') }}" 
+                        <img src="{{ asset('images/landing-bg.webp') }}" 
                             alt="Skatel Festival Run" 
                             class="rounded-3xl md:rounded-[2.5rem] shadow-2xl w-full h-auto aspect-video object-cover border-4 md:border-8 border-white">
                     </div>
@@ -107,7 +107,7 @@
                 <div class="absolute w-[260px] h-[260px] md:w-[400px] md:h-[400px] border-[12px] md:border-[24px] border-[#D32F2F] rounded-full opacity-100 z-0 md:translate-x-10"></div>
                 
                 <div class="relative z-10">
-                    <img src="{{ asset('storage/ketua-removebg-preview.png') }}" 
+                    <img src="{{ asset('images/ketua-removebg-preview.png') }}" 
                         alt="Abdul Hamid" 
                         class="w-full max-w-[280px] md:max-w-[450px] object-contain drop-shadow-2xl">
                     
@@ -127,19 +127,19 @@
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 max-w-6xl mx-auto">
             <div class="col-span-2 overflow-hidden rounded-xl md:rounded-2xl shadow-lg bg-gray-200 aspect-[16/7] md:aspect-[894/307]">
-                <img src="{{ asset('storage/momen.webp') }}" class="w-full h-full object-cover hover:scale-105 transition duration-700 cursor-pointer">
+                <img src="{{ asset('images/momen.webp') }}" class="w-full h-full object-cover hover:scale-105 transition duration-700 cursor-pointer">
             </div>
             <div class="overflow-hidden rounded-xl md:rounded-2xl shadow-md aspect-square md:aspect-[435/307] bg-gray-200">
-                <img src="{{ asset('storage/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                <img src="{{ asset('images/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
             </div>
             <div class="overflow-hidden rounded-xl md:rounded-2xl shadow-md aspect-square md:aspect-[435/307] bg-gray-200">
-                <img src="{{ asset('storage/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                <img src="{{ asset('images/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
             </div>
             <div class="overflow-hidden rounded-xl md:rounded-2xl shadow-md aspect-square md:aspect-[435/307] bg-gray-200">
-                <img src="{{ asset('storage/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                <img src="{{ asset('images/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
             </div>
             <div class="overflow-hidden rounded-xl md:rounded-2xl shadow-md aspect-square md:aspect-[435/307] bg-gray-200">
-                <img src="{{ asset('storage/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                <img src="{{ asset('images/momen.webp') }}" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
             </div>
         </div>
     </section>
@@ -147,7 +147,7 @@
     <footer class="bg-[#D32F2F] text-white pt-20 pb-10 px-6 md:px-24 footer-shape mt-10">
         <div class="flex flex-col md:flex-row justify-between items-center gap-10 border-t border-red-400 pt-10">
             <div class="flex flex-col items-center md:items-start">
-                <img src="{{ asset('storage/logoo.webp') }}" alt="Logo IKASTELBA" class="h-24 md:h-32 mb-4 object-contain">
+                <img src="{{ asset('images/logoo.webp') }}" alt="Logo IKASTELBA" class="h-24 md:h-32 mb-4 object-contain">
                 <p class="text-xs md:text-base text-red-100 max-w-xs font-bold uppercase tracking-wide text-center md:text-left leading-tight">
                     Festival lari ikatan alumni SMK <br class="hidden md:block"> Telkom Banjarbaru
                 </p>

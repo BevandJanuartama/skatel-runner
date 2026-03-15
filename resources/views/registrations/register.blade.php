@@ -19,7 +19,7 @@
 <body class="antialiased text-slate-800">
 
     <header class="relative h-[300px] flex flex-col justify-center items-center text-center text-white px-4 overflow-hidden mb-40">
-        <img src="{{ asset('storage/landing-bg.png') }}" class="absolute inset-0 w-full h-full object-cover brightness-50 z-0" alt="bg">
+        <img src="{{ asset('images/landing-bg.webp') }}" class="absolute inset-0 w-full h-full object-cover brightness-50 z-0" alt="bg">
         <div class="relative z-10">
             <h1 class="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter">AYO! DAFTAR <br> IKASTELBA FESTIVAL RUN</h1>
         </div>
@@ -187,7 +187,7 @@
                         <div class="p-2 bg-slate-100 rounded-xl"><svg class="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg></div>
                         Ukuran Jersey
                     </div>
-                    <img src="{{ asset('storage/chart.jpg') }}" class="w-full rounded-[2rem] mb-10 border border-slate-100 shadow-lg" alt="Jersey">
+                    <img src="{{ asset('images/chart.jpg') }}" class="w-full rounded-[2rem] mb-10 border border-slate-100 shadow-lg" alt="Jersey">
                     <div class="flex flex-wrap justify-center gap-3 md:gap-4 mb-12">
                         @foreach(['S', 'M', 'L', 'XL', 'XXL'] as $size)
                             <label class="flex-1 min-w-[80px]">
@@ -218,7 +218,7 @@
             
             <div class="p-8 text-center">
                 <div class="bg-white border-[12px] border-[#D32F2F] rounded-[2.5rem] p-4 mb-8 shadow-inner flex justify-center">
-                    <img src="{{ asset('storage/qris.webp') }}" class="w-full max-w-[200px]" alt="QRIS">
+                    <img src="{{ asset('images/qris.webp') }}" class="w-full max-w-[200px]" alt="QRIS">
                 </div>
 
                 <div class="mb-10 text-center">
@@ -239,7 +239,7 @@
      <footer class="bg-[#D32F2F] text-white pt-20 pb-10 px-6 md:px-24 footer-shape mt-10">
         <div class="flex flex-col md:flex-row justify-between items-center gap-10 border-t border-red-400 pt-10">
             <div class="flex flex-col items-center md:items-start">
-                <img src="{{ asset('storage/logoo.webp') }}" alt="Logo IKASTELBA" class="h-24 md:h-32 mb-4 object-contain">
+                <img src="{{ asset('images/logoo.webp') }}" alt="Logo IKASTELBA" class="h-24 md:h-32 mb-4 object-contain">
                 <p class="text-xs md:text-base text-red-100 max-w-xs font-bold uppercase tracking-wide text-center md:text-left leading-tight">
                     Festival lari ikatan alumni SMK <br class="hidden md:block"> Telkom Banjarbaru
                 </p>

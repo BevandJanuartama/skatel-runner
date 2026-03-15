@@ -110,7 +110,7 @@
             
             <div class="flex flex-col w-full md:w-auto items-center md:items-start">
                 <div class="relative flex flex-col items-center md:items-start">
-                    <img src="{{ asset('images/logoo.png') }}" 
+                    <img src="{{ asset('images/logoo.webp') }}" 
                         alt="Logo IKASTELBA" 
                         class="h-24 md:h-32 mb-4 object-contain">
                     
