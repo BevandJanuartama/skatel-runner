@@ -228,7 +228,7 @@
                 </div>
 
                 <button type="button" onclick="handlePaymentAction()" class="w-full bg-[#D32F2F] text-white py-5 rounded-3xl font-black text-lg mb-4 shadow-xl shadow-red-100 hover:bg-red-700 transition">
-                    SUDAH BAYAR
+                    KONFIRMASI
                 </button>
                 
                 <p class="text-[10px] text-slate-400 font-medium">Klik tombol di atas untuk konfirmasi & simpan data</p>
@@ -335,7 +335,7 @@
             const tempat = document.querySelector('input[name="tempat_lahir"]').value;
             const tgl = document.querySelector('input[name="ttl"]').value;
             
-            const phone = "6281528297789"; // Nomor WhatsApp Admin
+            const phone = "6282344665167"; // Nomor WhatsApp Admin
             
             // Template pesan WhatsApp
             const text = `Halo Admin! Saya *${nama}* (Nama BIB: *${bib}*) 
