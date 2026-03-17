@@ -43,8 +43,13 @@
             <div class="flex gap-4">
                 <a href="{{ route('pendaftaran.registration') }}" class="text-[10px] font-black border-2 border-red-main text-red-main px-4 py-2 rounded-xl hover:bg-red-main hover:text-white transition-all uppercase tracking-widest">Tambah Peserta</a>
                 <button onclick="window.print()" class="text-[10px] font-black bg-navy text-white px-4 py-2 rounded-xl shadow-lg shadow-navy/20 uppercase tracking-widest">Cetak Laporan</button>
+                <a href="{{ route('admin.logout') }}" 
+                class="text-[10px] font-black border-2 border-slate-200 text-slate-400 px-4 py-2 rounded-xl hover:bg-slate-100 hover:text-navy transition-all uppercase tracking-widest">
+                Keluar
+                </a>
             </div>
         </div>
+        
     </nav>
 
     <div class="max-w-[98%] mx-auto px-6">
